@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Rethink+Sans:ital,wght@0,400;0,500;0,600;1,400&display=swap');
+
+* {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: palevioletred;
+    font-family: 'Rethink Sans', sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* text-align: center; */
+    margin: 30px 200px;
+}
+
+.contato {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(244, 246, 248);
+    margin-top: 50px;
+    width: 350px;
+    height: auto;
+    padding: 20px 20px;
+    border-radius: 15px;
+    box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.tudo {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-left: 220px;
+}
+
+.lista {
+    margin-top: 45px;
+    background-color:rgb(236, 197, 210);
+    width: 320px;
+    height: 515px;
+    padding: 15px 20px;
+    box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.lista h1 {
+    border-bottom: palevioletred 3px solid;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    font-weight: 800;
+}
+
+.tit {
+    text-align: center;
+    color: white;
+    font-size: 45px;
+    font-weight: 800;
+}
+
+.contato h2 {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+input {
+    font: 500 18px 'Rethink Sans', sans-serif;
+    height: 35px;
+    width: 300px;
+    margin-bottom: 20px;
+    border-bottom: palevioletred 4px solid;
+    background-color: transparent;
+    color: black;
+    outline: 0;
+}
+
+textarea {
+    font: 500 15px 'Rethink Sans', sans-serif;
+    resize: none;
+    border: palevioletred 3px solid;
+    outline: 0;
+    padding: 10px 10px;
+    border-radius: 7px;
+}
+
+button {
+    font: 500 15px 'Rethink Sans', sans-serif;
+    background-color: rgb(75, 75, 75);
+    width: 150px;
+    padding: 5px 4px;
+    height: auto;
+    border-radius: 8px;
+    color: white;
+}
+
+#contato-form{
+    text-align: center;
+}
+
+#contato-form button {
+    margin-top: 10px;
+}
+
+.botoes {
+    margin-top: 12px;
+    text-align: center;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: palevioletred;
+    transition: 0.3s;
+}
+
+ul{
+    font: 500 16px 'Rethink Sans', sans-serif;
+    list-style: none;
+    margin-top: 20px;
+}
+
+li{
+    text-align:center;
+    margin-top: 15px;
+    border-bottom: rgb(0, 0, 0) 2px solid;
+}
